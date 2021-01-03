@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Dev/HW5/HW5/problem1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="problem1">
+				<Option output="D:/Dev/HW5/HW5/problem1/cmake-build-debug/problem1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 problem1"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="problem1/fast">
+				<Option output="D:/Dev/HW5/HW5/problem1/cmake-build-debug/problem1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 problem1/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Dev/HW5/HW5/problem1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Dev/HW5/HW5/problem1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Dev/HW5/HW5/problem1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/CSI.cpp">
+			<Option target="problem1"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/CSI.h">
+			<Option target="problem1"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/TestHelper.cpp">
+			<Option target="problem1"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/TestHelper.h">
+			<Option target="problem1"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/main.cpp">
+			<Option target="problem1"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/test/test.in">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/test/test1.out">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/test/test2.out">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/test/test3.out">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/test/test4.out">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="D:/Dev/HW5/HW5/problem1/test/test5.out">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

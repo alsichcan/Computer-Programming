@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/2020-2학기/컴퓨터프로그래밍(이영기)/Labs/Lab09/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_16aaf/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_16aaf.dir\build.make CMakeFiles/cmTC_16aaf.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/2020-2학기/컴퓨터프로그래밍(이영기)/Labs/Lab09/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16aaf.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_16aaf.dir\testCCompiler.c.obj   -c D:\2020-2?숆린\而댄벂?고봽濡쒓렇?섎컢(?댁쁺湲?\Labs\Lab09\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: D:\2020-2?숆린\而댄벂?고봽濡쒓렇?섎컢(?댁쁺湲?\Labs\Lab09\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: Invalid argument
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_16aaf.dir\build.make:84: recipe for target 'CMakeFiles/cmTC_16aaf.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_16aaf.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/2020-2학기/컴퓨터프로그래밍(이영기)/Labs/Lab09/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_16aaf/fast' failed
+mingw32-make.exe: *** [cmTC_16aaf/fast] Error 2
+
+
+

@@ -1,0 +1,41 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\2020-2학기\컴퓨터프로그래밍(이영기)\Homeworks\HW06\HW6\problem1
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2020.2.4/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: F:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Homeworks/HW06/HW6/problem1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_377cb/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_377cb.dir\build.make CMakeFiles/cmTC_377cb.dir/build
+    mingw32-make.exe[1]: Entering directory 'F:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Homeworks/HW06/HW6/problem1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_377cb.dir/testCCompiler.c.obj
+    C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_377cb.dir\testCCompiler.c.obj   -c F:\2020-2?�늽由�\�뚮똾踰�?怨좊늄嚥≪뮄�젃?�꼶而�(?�똻�겫疫�?\Homeworks\HW06\HW6\problem1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: error: F:\2020-2?�늽由�\�뚮똾踰�?怨좊늄嚥≪뮄�젃?�꼶而�(?�똻�겫疫�?\Homeworks\HW06\HW6\problem1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: Invalid argument
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    CMakeFiles\cmTC_377cb.dir\build.make:84: recipe for target 'CMakeFiles/cmTC_377cb.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_377cb.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'F:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Homeworks/HW06/HW6/problem1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:140: recipe for target 'cmTC_377cb/fast' failed
+    mingw32-make.exe: *** [cmTC_377cb/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "F:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Homeworks/HW06/HW6/problem1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "F:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Homeworks/HW06/HW6/problem1/cmake-build-debug/CMakeFiles/CMakeError.log".

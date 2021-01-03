@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Dev/lab10/Date.cpp
+iostream
+-
+Date.h
+D:/Dev/lab10/Date.h
+
+D:/Dev/lab10/Date.h
+iostream
+-
+
+D:/Dev/lab10/problem3.cpp
+iostream
+-
+Date.h
+D:/Dev/lab10/Date.h
+

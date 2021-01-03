@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Dev/HW5/HW5/problem2/Player.h
+iostream
+-
+string
+-
+set
+-
+vector
+-
+tuple
+-
+limits
+-
+
+D:/Dev/HW5/HW5/problem2/main.cpp
+iostream
+-
+string
+-
+utility
+-
+set
+-
+vector
+-
+tuple
+-
+cmath
+-
+Player.h
+D:/Dev/HW5/HW5/problem2/Player.h
+

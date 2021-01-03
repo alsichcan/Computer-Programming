@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Dev/2017-15108 (2)/HW6/problem2/backEnd.h
+iostream
+-
+fstream
+-
+filesystem
+-
+sstream
+-
+string
+-
+algorithm
+-
+queue
+-
+vector
+-
+unordered_set
+-
+config.h
+D:/Dev/2017-15108 (2)/HW6/problem2/config.h
+post.h
+D:/Dev/2017-15108 (2)/HW6/problem2/post.h
+dateTime.h
+D:/Dev/2017-15108 (2)/HW6/problem2/dateTime.h
+
+D:/Dev/2017-15108 (2)/HW6/problem2/config.h
+
+D:/Dev/2017-15108 (2)/HW6/problem2/dateTime.h
+stdio.h
+-
+string
+-
+time.h
+-
+vector
+-
+
+D:/Dev/2017-15108 (2)/HW6/problem2/frontEnd.cpp
+frontEnd.h
+D:/Dev/2017-15108 (2)/HW6/problem2/frontEnd.h
+
+D:/Dev/2017-15108 (2)/HW6/problem2/frontEnd.h
+iostream
+-
+sstream
+-
+backEnd.h
+D:/Dev/2017-15108 (2)/HW6/problem2/backEnd.h
+post.h
+D:/Dev/2017-15108 (2)/HW6/problem2/post.h
+
+D:/Dev/2017-15108 (2)/HW6/problem2/post.h
+iostream
+-
+string
+-
+dateTime.h
+D:/Dev/2017-15108 (2)/HW6/problem2/dateTime.h
+

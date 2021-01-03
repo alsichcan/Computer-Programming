@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Dev/lab11/lab11/main.cpp
+iostream
+-
+ctime
+-
+player.h
+D:/Dev/lab11/lab11/player.h
+
+D:/Dev/lab11/lab11/monster.h
+
+D:/Dev/lab11/lab11/player.h
+monster.h
+D:/Dev/lab11/lab11/monster.h
+

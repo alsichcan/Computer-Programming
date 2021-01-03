@@ -1,0 +1,41 @@
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\2020-2학기\컴퓨터프로그래밍(이영기)\Labs\Lab09
+-- The C compiler identification is GNU 9.2.0
+-- The CXX compiler identification is GNU 9.2.0
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - broken
+CMake Error at C:/Program Files/JetBrains/CLion 2020.2/bin/cmake/win/share/cmake-3.17/Modules/CMakeTestCCompiler.cmake:60 (message):
+  The C compiler
+
+    "C:/MinGW/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Labs/Lab09/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_16aaf/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_16aaf.dir\build.make CMakeFiles/cmTC_16aaf.dir/build
+    mingw32-make.exe[1]: Entering directory 'D:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Labs/Lab09/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_16aaf.dir/testCCompiler.c.obj
+    C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_16aaf.dir\testCCompiler.c.obj   -c D:\2020-2?�늽由�\�뚮똾踰�?怨좊늄嚥≪뮄�젃?�꼶而�(?�똻�겫疫�?\Labs\Lab09\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    gcc.exe: error: D:\2020-2?�늽由�\�뚮똾踰�?怨좊늄嚥≪뮄�젃?�꼶而�(?�똻�겫疫�?\Labs\Lab09\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: Invalid argument
+    gcc.exe: fatal error: no input files
+    compilation terminated.
+    CMakeFiles\cmTC_16aaf.dir\build.make:84: recipe for target 'CMakeFiles/cmTC_16aaf.dir/testCCompiler.c.obj' failed
+    mingw32-make.exe[1]: *** [CMakeFiles/cmTC_16aaf.dir/testCCompiler.c.obj] Error 1
+    mingw32-make.exe[1]: Leaving directory 'D:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Labs/Lab09/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Makefile:140: recipe for target 'cmTC_16aaf/fast' failed
+    mingw32-make.exe: *** [cmTC_16aaf/fast] Error 2
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Labs/Lab09/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "D:/2020-2�븰湲�/而댄벂�꽣�봽濡쒓렇�옒諛�(�씠�쁺湲�)/Labs/Lab09/cmake-build-debug/CMakeFiles/CMakeError.log".

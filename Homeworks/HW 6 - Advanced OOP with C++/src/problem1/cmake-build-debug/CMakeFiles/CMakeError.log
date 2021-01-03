@@ -1,0 +1,18 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: F:/2020-2학기/컴퓨터프로그래밍(이영기)/Homeworks/HW06/HW6/problem1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_377cb/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_377cb.dir\build.make CMakeFiles/cmTC_377cb.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/2020-2학기/컴퓨터프로그래밍(이영기)/Homeworks/HW06/HW6/problem1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_377cb.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_377cb.dir\testCCompiler.c.obj   -c F:\2020-2?숆린\而댄벂?고봽濡쒓렇?섎컢(?댁쁺湲?\Homeworks\HW06\HW6\problem1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: F:\2020-2?숆린\而댄벂?고봽濡쒓렇?섎컢(?댁쁺湲?\Homeworks\HW06\HW6\problem1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: Invalid argument
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_377cb.dir\build.make:84: recipe for target 'CMakeFiles/cmTC_377cb.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_377cb.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'F:/2020-2학기/컴퓨터프로그래밍(이영기)/Homeworks/HW06/HW6/problem1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:140: recipe for target 'cmTC_377cb/fast' failed
+mingw32-make.exe: *** [cmTC_377cb/fast] Error 2
+
+
+

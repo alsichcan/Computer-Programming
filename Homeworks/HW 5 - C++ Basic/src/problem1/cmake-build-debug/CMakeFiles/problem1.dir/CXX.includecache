@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Dev/HW5/HW5/problem1/CSI.h
+iostream
+-
+fstream
+-
+string
+-
+cmath
+-
+
+D:/Dev/HW5/HW5/problem1/TestHelper.h
+iostream
+-
+sstream
+-
+fstream
+-
+
+D:/Dev/HW5/HW5/problem1/main.cpp
+CSI.h
+D:/Dev/HW5/HW5/problem1/CSI.h
+TestHelper.h
+D:/Dev/HW5/HW5/problem1/TestHelper.h
+cassert
+-
+
